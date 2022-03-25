@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판 보기</title>
+
+    <!-- META -->
+    <meta name="acthor" content="webstroyboy">
+    <meta name="description" content="웹 표준을 준수한 사이트입니다.">
+    <meta name="keywords" content="웹표준, 웹접근성, 웹호환성, 사이트제작, 사이트만들기, 포트폴리오">
+    <meta name="robots" content="all">
+
+    <!-- 아이콘 & 파비콘 -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/icon114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icon114.png">
+    <link rel="apple-touch-icon-precomposed" href="img/icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="167x167" href="img/icon167.png">
+
+    <!-- CSS style -->
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+<body>
+    <header id="header">
+        <h1 class="logo">
+            <a href="#">PHP <em>class</em></a>
+        </h1>
+        <nav class="menu">
+            <h2 class="ir_so">메인 메뉴</h2>
+            <ul>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">댓글</a></li>
+                <li><a href="#">게시판</a></li>
+                <li><a href="#">블로그</a></li>
+                <li><a href="#">관리자</a></li>
+            </ul>
+        </nav>
+        <div class="member">
+            <a href="#">회원가입</a>
+            <a href="#">로그인</a>
+        </div>
+    </header>
+    <!-- //header -->
+
+    <main id="contents">
+    <h2 class="ir_so">컨텐츠 영역</h2>
+    <section id="board-type" class="section center mb100">
+    <div class="container">
+        <h3 class="section__title">게시글 보기</h3>
+        <p class="section__desc">나무와 관련된 게시판입니다. 알고있는 나무를 공유하세요!</p>
+        <div class="board__inner">     
+            <div class="board__table">
+                <table class="hover">
+                    <colgroup>
+                    <col style="width: 30%;">
+                    <col style="width: 70%;">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <th>제목</th>
+                            <td class="left">참나무 여담 공유합니다~</td>
+                        </tr>
+                        <tr>
+                            <th>제목</th>
+                            <td class="left">찰리푸스</td>
+                        </tr>
+                        <tr>
+                            <th>등록일</th>
+                            <td class="left">2022-03-18</td>
+                        </tr>
+                        <tr>
+                            <th>조회수</th>
+                            <td class="left">133</td>
+                        </tr>
+                        <tr>
+                            <th>내용</th>
+                            <td class="left height">포켓몬스터 오박사의 영어 이름은 Prof. Oak다. 이후로도 포켓몬 박사들의 이름은 모두 나무 이름으로 현지화되었다.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="board__btn">
+                <a href="#">목록보기</a>
+                <a href="#">삭제하기</a>
+                <a href="#">수정하기</a>
+            </div>
+        </div>
+    </div>
+    </section>
+    </main>
+    <!-- //main -->
+
+    <footer id="footer" class="footer gray">
+        <div class="container">
+            <h2 class="ir_so">푸터 바로가기 메뉴</h2>
+            <div class="footer-menu">
+                <div>
+                    <h3>레이아웃 영역</h3>
+                    <ul>
+                        <li><a href="#">레이아웃 유형01</a></li>
+                        <li><a href="#">레이아웃 유형02</a></li>
+                        <li><a href="#">레이아웃 유형03</a></li>
+                        <li><a href="#">레이아웃 유형04</a></li>
+                        <li><a href="#">레이아웃 유형05</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>메뉴 영역</h3>
+                    <ul>
+                        <li><a href="#">메뉴 유형01</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>메인 영역</h3>
+                    <ul>
+                        <li><a href="#">이미지 유형01</a></li>
+                        <li><a href="#">동영상 유형02</a></li>
+                        <li><a href="#">슬라이드 유형03</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>컨텐츠 영역</h3>
+                    <ul>
+                        <li><a href="#">텍스트 유형01</a></li>
+                        <li><a href="#">이미지 유형02</a></li>
+                        <li><a href="#">이미지/텍스트 유형03</a></li>
+                        <li><a href="#">카드 유형04</a></li>
+                        <li><a href="#">배너 유형05</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>게시판 영역</h3>
+                    <ul>
+                        <li><a href="board.html">게시판</a></li>
+                        <li><a href="boardView.html">게시판 보기</a></li>
+                        <li><a href="boardModify.html">게시판 수정</a></li>
+                        <li><a href="boardWrite.html">게시판 쓰기</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>사이트</h3>
+                    <ul>
+                        <li><a href="#">웹표준 사이트</a></li>
+                        <li><a href="#">반응형 사이트</a></li>
+                        <li><a href="#">패럴랙스 사이트</a></li>
+                        <li><a href="#">포트폴리오 사이트</a></li>
+                    </ul>
+                </div>
+            </div>
+            <address class="footer-rights">
+                &copy; 2022 webstoryboy. All rights reserved.
+            </address>
+        </div>
+    </footer>
+    <!-- //footer -->
+</body>
+</html>

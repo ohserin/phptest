@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+
+    <!-- META -->
+    <meta name="acthor" content="webstroyboy">
+    <meta name="description" content="웹 표준을 준수한 사이트입니다.">
+    <meta name="keywords" content="웹표준, 웹접근성, 웹호환성, 사이트제작, 사이트만들기, 포트폴리오">
+    <meta name="robots" content="all">
+
+    <!-- 아이콘 & 파비콘 -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/icon114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icon114.png">
+    <link rel="apple-touch-icon-precomposed" href="img/icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="167x167" href="img/icon167.png">
+
+    <!-- CSS style -->
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+<body>
+    <header id="header">
+        <h1 class="logo">
+            <a href="#">PHP <em>class</em></a>
+        </h1>
+        <nav class="menu">
+            <h2 class="ir_so">메인 메뉴</h2>
+            <ul>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">댓글</a></li>
+                <li><a href="#">게시판</a></li>
+                <li><a href="#">블로그</a></li>
+                <li><a href="#">관리자</a></li>
+            </ul>
+        </nav>
+        <div class="member">
+            <a href="#">회원가입</a>
+            <a href="#">로그인</a>
+        </div>
+    </header>
+    <!-- //header -->
+
+    <main id="contents">
+        <h2 class="ir_so">컨텐츠 영역</h2>
+        <section class="join-type gray">
+            <div class="member-form">
+                <h3>로그인</h3>
+            <form action="#" name="join" method="post">
+                <fieldset>
+                    <legend class="ir_so">회원가입 입력폼</legend>
+                    <div class="join-box">
+                        <div>
+                            <label for="youEmail">이메일</label>
+                            <input type="email" id="youEmail" name="youEmail" placeholder="Sample@naver.com" autocomplete="off" autofocus required>
+                        </div>
+                        <div>
+                            <label for="youPass">비밀번호</label>
+                            <input type="password" id="youPass" name="youPass" maxlength="20" placeholder="비밀번호를 적어주세요!" autocomplete="off" required>
+                        </div>
+                    </div>
+                </fieldset>
+                <button id="joinBtn" class="join-submit" type="submit">로그인</button>
+            </form>
+            </div>
+        </section>
+    </main>
+    <!-- //main -->
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <h2 class="ir_so">푸터 바로가기 메뉴</h2>
+            <div class="footer-menu">
+                <div>
+                    <h3>레이아웃 영역</h3>
+                    <ul>
+                        <li><a href="#">레이아웃 유형01</a></li>
+                        <li><a href="#">레이아웃 유형02</a></li>
+                        <li><a href="#">레이아웃 유형03</a></li>
+                        <li><a href="#">레이아웃 유형04</a></li>
+                        <li><a href="#">레이아웃 유형05</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>메뉴 영역</h3>
+                    <ul>
+                        <li><a href="#">메뉴 유형01</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>메인 영역</h3>
+                    <ul>
+                        <li><a href="#">이미지 유형01</a></li>
+                        <li><a href="#">동영상 유형02</a></li>
+                        <li><a href="#">슬라이드 유형03</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>컨텐츠 영역</h3>
+                    <ul>
+                        <li><a href="#">텍스트 유형01</a></li>
+                        <li><a href="#">이미지 유형02</a></li>
+                        <li><a href="#">이미지/텍스트 유형03</a></li>
+                        <li><a href="#">카드 유형04</a></li>
+                        <li><a href="#">배너 유형05</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>푸터 영역</h3>
+                    <ul>
+                        <li><a href="#">컨택트 유형01</a></li>
+                        <li><a href="#">푸터 유형02</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>사이트</h3>
+                    <ul>
+                        <li><a href="#">웹표준 사이트</a></li>
+                        <li><a href="#">반응형 사이트</a></li>
+                        <li><a href="#">패럴랙스 사이트</a></li>
+                        <li><a href="#">포트폴리오 사이트</a></li>
+                    </ul>
+                </div>
+            </div>
+            <address class="footer-rights">
+                &copy; 2022 webstoryboy. All rights reserved.
+            </address>
+        </div>
+    </footer>
+    <!-- //footer -->
+</body>
+</html>
