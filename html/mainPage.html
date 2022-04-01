@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0 auto;
+        }
+
+        #wrap {
+            background: url("assets/img/mainPageImg/background.jpg");
+            width: 1440px;
+            height: 795px;
+        }
+
+        .container {
+            display: flex;
+            height: 795px;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .container .title {
+            color: #fff;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        
+        .textBox {
+            transform: translate(0, 35%);
+        }
+        
+        .btnBox {
+            display: flex;
+            transform: translate(100px, 0);
+            margin-top: 30px;
+        }
+        
+        .imageBox {
+            width: 745px;
+            height: 480px;
+            background-color: #CCDEEE;
+            margin-right: 60px;
+            transform: translate(0, 30%);
+            border-radius: 10px;
+            position: relative;
+        }
+        
+        .imageBox .img {
+            background: url("assets/img/mainPageImg/screenImage.jpg");
+            width: 735px;
+            height: 405px;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .textBox .StartNowBtn {
+            width: 108px;
+            height: 35px;
+            background-color: #11253E;
+            border: 1px solid #11253E;
+            border-radius: 50px;
+            text-align: center;
+            margin: 10px 10px;
+        }
+
+        .textBox .StartNowBtn a {
+            color: #fff;
+            font-size: 15px;
+            text-decoration: none;
+            vertical-align: -5px;
+        }
+
+        .textBox .ContactBtn {
+            width: 108px;
+            height: 35px;
+            text-align: center;
+            margin: 10px 10px;
+        }
+
+        .textBox .ContactBtn a {
+            color: #fff;
+            font-size: 15px;
+            text-decoration: none;
+            vertical-align: -5px;
+        }
+
+        .textBox .ContactBtn a span {
+            color: #0A2540;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="container">
+            <div class="textBox">
+                <div class="title">웹 앨범 만들때는<br>
+                    쉽고 안전한 피스에서</div>
+                <div class="btnBox">
+                    <div class="StartNowBtn"><a href="#">Start now > </a></div>
+                    <div class="ContactBtn"><a href="#">Contact sales <span>></span></a></div>
+                </div>
+            </div>
+
+            <div class="imageBox">
+                <div class="img"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

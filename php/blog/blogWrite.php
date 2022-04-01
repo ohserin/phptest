@@ -61,7 +61,7 @@
                         </div>
                         <div>
                             <label for="blogFile">파일</label>
-                            <input type="file" name="blogFile" id="blogFile" placeholder="사진을 넣어주세요! 사진은 JPG, PNG 타입만 넣을 수 있습니다.">
+                            <input type="file" name="blogFile" id="blogFile" accept=".jpg, .jpeg, .png, .gif" placeholder="사진을 넣어주세요! 사진은 JPG, PNG 타입만 넣을 수 있습니다.">
                         </div>
                         <button type="submit" value="저장하기">저장하기</button>
                     </fieldset>

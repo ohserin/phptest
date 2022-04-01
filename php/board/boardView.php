@@ -44,7 +44,7 @@
     $boardID = $_GET['boardID'];
 
     //echo $boardID;
-    $sql = "SELECT b.boardTitle, m.youName, b.regTime, b.boardView, b.boardContents FROM myBoard b JOIN myMember m ON(m.memberID = b.memberID) WHERE b.boardID = {$boardID}";
+    $sql = "SELECT b.boardTitle, m.youName, b.regTime, b.boardView, b.boardLike, b.boardContents FROM myBoard b JOIN myMember m ON(m.memberID = b.memberID) WHERE b.boardID = {$boardID}";
     $result = $connect -> query($sql);
 
     $sql ="UPDATE myBoard SET boardView = boardView + 1 WHERE boardID = {$boardID}";
@@ -61,6 +61,7 @@
         echo "<tr><th>글쓴이</th><td class='left'>".$boardInfo['youName']."</td></tr>";
         echo "<tr><th>등록일</th><td class='left'>".date('Y-m-d H:i', $boardInfo['regTime'])."</td></tr>";
         echo "<tr><th>조회수</th><td class='left'>".$boardInfo['boardView']."</td></tr>";
+        echo "<tr><th>좋아요</th><td class='left'>".$boardInfo['boardLike']."</td></tr>";
         echo "<tr><th>내용</th><td class='left height'>".$boardInfo['boardContents']."</td></tr>";
     }
 ?>
@@ -72,6 +73,7 @@
                 <a href="board.php">목록보기</a>
                 <a href="boardRemove.php?boardID=<?=$boardID?>" onclick="return noticeRemove();">삭제하기</a>
                 <a href="boardModify.php?boardID=<?=$boardID?>">수정하기</a>
+                <a href="boardModify.php?boardID=<?=$boardID?>">좋아요</a>
             </div>
         </div>
     </div>

@@ -1,0 +1,129 @@
+
+
+/* #board .board__foot {
+    width: 100%;
+    height: 250px;
+    color: #32215f;
+    text-align: center;
+    margin-top: 200px;
+}
+#board .board__foot p {
+    font-size: 100px;
+    font-weight: bold;
+} */
+.board__body {
+    height: 100px;
+}
+.board__body .container {
+    width: 1200px;
+    background: #fff;
+}
+.contact {
+    
+}
+.contact h2 {
+    font-size: 45px;
+    margin-left: 110px;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    width: 100%;
+    height: 400px;
+    background: #fff;
+    margin-top: 200px;
+    font-size: 25px;
+    
+}
+
+.contents .box {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    left: 110px; top: 350px;
+}
+
+.contents .box .left {
+    width: 50%;
+    height: 500px;
+    background: #000;
+    margin-right: 30px;
+    background-size: cover;
+}
+.contents .box .right {
+    width: 50%;
+    height: 500px;
+    background: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .board__body .article0 {
+    width: 800px
+}
+.cont0 img{
+    position: absolute;
+    top: 0%;
+}
+
+.board__body .article0 span {
+    display: inline-block;
+    font-size: 83px;
+    color: #4f54d4;
+    font-weight: bold;
+    padding-top: 150px;
+    position: absolute;
+    top: 13px; left: -400px;
+}
+
+#contents {
+    display: flex;
+    justify-content: center;
+}
+.inquiry {
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    position: relative;
+    left: -30px; top: 100px;
+    transition: all 0.3s;
+}
+.inquiry:hover {
+    background: #6859ec;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 10px 10px 40px;
+}
+.Request {
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    position: relative;
+    left: -100px; top: 100px;
+    transition: all 0.3s;
+}
+.Request:hover {
+    background: #6859ec;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 10px 10px 40px;
+}
+.contact {
+    width: 100%;
+    height: 700px; */
+    /* background: #000; */
+/* } */

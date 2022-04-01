@@ -53,28 +53,34 @@
         </div>
         <div class="blog__cont">
 
-<?php
-    $sql = "SELECT * FROM myBlog";
+        <?php
+    $sql = "SELECT * FROM myBlog WHERE blogDelete = 1 ORDER BY blogID DESC";
     $result = $connect -> query($sql);
-    $sqlArray = $result -> fetch_array(MYSQLI_ASSOC);
+
+    // if($result){
+    //     $blogInfo = $result -> fetch_array(MYSQLI_ASSOC);
+    //     echo "<pre>";
+    //     var_dump($blogInfo);
+    //     echo "</pre>";
+    // }
 ?>
 <?php foreach($result as $blog){ ?>
     <article class="blog">
-                <figuer class="blog__header">
-                    <a href="blogView.php?blogID=<?=$blog['blogID']?>"><img src="../assets/img/blog/<?=$blog['blogImgFile']?>" alt="블로그 이미지"></a>
-                </figuer>
-                <div class="blog__body">
-                    <span class="blog__cate"><?=$blog['blogCategory']?></span>
-                    <div class="blog__title"><?=$blog['blogTitle']?></div>
-                    <div class="blog__desc"><?=$blog['blogContents']?></div>
-                    <div class="blog__info">
-                        <span class="author"><a href="#"><?=$blog['blogAuthor']?></a></span>
-                        <span class="date"><?=date('Y-m-d', $blog['blogRegTime'])?></span>
-                        <span class="modify"><a href="#">수정</a></span>
-                        <span class="delete"><a href="#">삭제</a></span>
-                    </div>
-                </div>
-            </article>
+        <figuer class="blog__header">
+            <a href="blogView.php?blogID=<?=$blog['blogID']?>" style="background-image:url(../assets/img/blog/<?=$blog['blogImgFile']?>)"></a>
+        </figuer>
+        <div class="blog__body">
+            <span class="blog__cate"><?=$blog['blogCategory']?></span>
+            <div class="blog__title"><a href="blogView.php?blogID=<?=$blog['blogID']?>"><?=$blog['blogTitle']?></a></div>
+            <div class="blog__desc"><?=$blog['blogContents']?></div>
+            <div class="blog__info">
+                <span class="author"><a href="#"><?=$blog['blogAuthor']?></a></span>
+                <span class="date"><?=date('Y-m-d', $blog['blogRegTime'])?></span>
+                <span class="modify"><a href="#">수정</a></span>
+                <span class="delete"><a href="#">삭제</a></span>
+            </div>
+        </div>
+    </article>
 <?php } ?>
 
             <!-- <article class="blog">

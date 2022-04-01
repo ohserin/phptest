@@ -1,0 +1,219 @@
+* {
+    font-family: 'GmarketSans';
+}
+
+.join-type {
+    padding: 150px 0;
+}
+.member-form {
+    max-width: 665px;
+    border: 1px solid #DEDEDE;
+    background: #fff;
+    margin: 0 auto;
+    padding: 50px;
+}
+.member-form h3 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: rgb(117, 96, 192);
+}
+.member-form .list li {
+    font-size: 14px;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 10px;
+}
+.member-form .list li::before {
+    content: '';
+    width: 3px;
+    height: 3px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+.member-form h4 {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.member-form .blue .list {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+.member-form .blue .check {
+    display: block;
+    margin-top: 10px;
+}
+.join-intro {
+    height: 200px;
+    border: 2px solid #ffffff;
+    margin-bottom: 100px;
+    position: relative;
+    text-align: center;
+}
+.join-intro .face {
+    width: 173px;
+    height: 173px;
+    margin: 50px auto 20px auto;
+    border-radius: 50%;
+    background: #eee2f5;
+}
+
+.join-intro .face img {
+    width: 230px;
+    height: 230px;
+    position:absolute;
+    left: 32.7%; top: 1%;
+    border-radius: 25%;
+    border: 5px solid #d8cefc;
+}
+
+.join-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.join-btn a {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    background: rgb(142, 137, 216);
+    padding: 15px;
+    box-sizing: border-box;
+    width: 49%;
+    transition: all 0.3s;
+    color: #fff;
+    border-radius: 10px;
+}
+.join-btn a:hover {
+    box-shadow: inset 0 0 0 2px rgb(207, 200, 233);
+    background: rgb(109, 103, 201);
+    color: #fff;
+}
+
+.join-info {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.join-info li {
+    display: flex;
+    font-weight: wrap;
+    justify-content: space-between;
+}
+.join-info li strong {
+    width: 20%;
+    font-weight: normal;
+    background: rgb(142, 137, 216);
+    margin-bottom: 10px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 12px;
+    color: #fff;
+}
+.join-info li span {
+    width: 78%;
+    display: inline-block;
+    padding: 10px 0;
+    border-bottom: 2px dashed #eae1ee;
+    margin-bottom: 10px;
+}
+.join-intro .change {
+    padding-top: 10px;
+}
+.join-intro .intro {
+    padding-top: 20px;
+    color: rgb(114, 81, 192);
+}
+
+.join-submit {
+    background: rgb(116, 111, 189);
+    color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 16px 20px;
+    float: right;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: 'GmarketSans';
+}
+.join-submit:hover {
+    background: rgb(93, 88, 161);
+}
+
+.join-box label {
+    text-align: left;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #766bd4;
+}
+.join-box input {
+    width: 100%;
+    padding: 15px;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.join-box .modify input {
+    background: #dfdfdf;
+}
+
+.join-box .overlap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.join-box .overlap label {
+    width: 100%;
+}
+.join-box .overlap input {
+    width: 70%;
+    margin-bottom: 0px;
+}
+.join-box .overlap .test {
+    width: 26%;
+    background: #f5f5f5;
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.join-box .overlap .comment {
+    width: 100%;
+    font-size: 14px;
+    padding-top: 10px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.join-box .basic input {
+    margin-bottom: 0px;
+}
+.join-box .basic .comment {
+    width: 100%;
+    font-size: 14px;
+    padding-top: 10px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.join-box .modify input {
+    background: #f3f5fc;
+}
+
+.join-box input {
+    border: 1px solid #dde1e9;
+    width: 100%;
+    padding: 15px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.profile {
+    
+}

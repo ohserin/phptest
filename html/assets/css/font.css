@@ -1,0 +1,181 @@
+/* GmarketSans */
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
+    font-display: swap;
+} 
+
+/* 넥슨 고딕 lv1*/
+@font-face {
+    font-family: 'NexonLv1Gothic';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicLight.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NexonLv1Gothic';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicRegular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicRegular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicRegular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicRegular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicRegular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NexonLv1Gothic';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+/* 넥슨 고딕 lv2 */
+@font-face {
+    font-family: 'NexonLv2Gothic';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicLight.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NexonLv2Gothic';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicRegular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicRegular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicRegular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicRegular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicRegular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NexonLv2Gothic';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicMedium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicMedium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicMedium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicMedium.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NexonLv2Gothic';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+
+/* UtoLoveSpring */
+@font-face {
+    font-family: 'UtoLoveSpring';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoLovespring/UtoLoveSpring.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoLovespring/UtoLoveSpring.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/utoLovespring/UtoLoveSpring.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/utoLovespring/UtoLoveSpring.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/utoLovespring/UtoLoveSpring.ttf') format("truetype");
+    font-display: swap;
+}
+
+/* UtoImageHand */
+@font-face {
+    font-family: 'UtoImageHand';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandLight.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'UtoImageHand';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandRegular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandRegular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandRegular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandRegular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandRegular.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'UtoImageHand';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImageHand/UtoImageHandBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+/* font-family: 'IBM Plex Sans Condensed', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@600;700&display=swap');
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Bebas Neue*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Anton */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');

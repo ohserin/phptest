@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/join_login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <section class="header__wrap white">
+                <div class="headerLogo">PICS</div>
+                <div class="middleMenu">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="SignIn">
+                    <a href="#">Sign in</a>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <main id="main">
+            <section id="joinBox">
+                <div class="joinBox_img"></div>
+                <div class="joinBox_text">
+                    <h3>Welcome to PICS</h3>
+                    <form action="#" name="join" method="post">
+                        <fieldset>
+                            <legend class="ir_so">회원가입 입력폼</legend>
+                            <div class="join-box">
+                                <div>
+                                    <label for="youName">Full Name</label> 
+                                    <input type="text" id="youName" name="youName" maxlength="5" placeholder="John Doe" autocomplete="off" autofocus required>
+                                </div>
+                                <div>
+                                    <label for="youEmail">Email</label> 
+                                    <input type="email" id="youEmail" name="youEmail" placeholder="Enter your Email here" autocomplete="off"  required>
+                                </div>
+                                <div>
+                                    <label for="youPass">Password</label> 
+                                    <input type="password" id="youPass" name="youPass" maxlength="20" placeholder="Enter your Password" autocomplete="off" required>
+                                </div>
+                                <div>
+                                    <label for="youPassC">Password Check</label> 
+                                    <input type="password" id="youPassC" name="youPassC" maxlength="20" placeholder="Enter your Password Check" autocomplete="off" required>
+                                </div>
+                            </div>
+                            <button id="joinBtn" class="join-submit" type="submit">Create Account</button>
+                        </fieldset>
+                    </form>
+                    <p class="already">Already have an account? <a href="login.html">Log in</a></p>
+                    <p class="or">OR</p>
+                    <div class="connect_signUp">
+                        <div class="google">
+                            <a href="#">Sign up with Google</a>
+                        </div>
+                        <div class="git">
+                            <a href="#">Sign up with Github</a>
+                        </div>
+                    </div>
+            </section>
+        </div>
+
+    </main>
+    
+</body>
+</html>

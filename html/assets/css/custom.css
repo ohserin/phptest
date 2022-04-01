@@ -1,0 +1,96 @@
+/* header */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    font-family: 'Poppins';
+    font-weight: 1000;
+    /* background-color: blue; */
+}
+
+#header .container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 1200px){
+    #header .container{
+        width: 100%;
+    }
+}
+.header__wrap {
+    margin: 20px 0;
+    height: 60px;
+    display: flex;
+}
+
+#header .headerLogo {
+    flex: 0 0 20%;
+    font-size: 24px;
+    padding-top: 11px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#header .middleMenu {
+    flex: 0 0 50%;
+    padding-top: 15px;
+}
+
+#header .middleMenu ul {
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#header .middleMenu li a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#header .SignIn {
+    flex: 0 0 28%;
+    margin-top: 10px;
+}
+
+#header .SignIn .text {
+    border: 0;
+    padding: 5px 20px;
+    background-color: #9891E7;
+}
+
+
+#header .SignIn a {
+    float: right;
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    font-weight: 1000;
+    color: #fff;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.white {
+    color: #fff;
+}
+
+
+#header .SignIn .setting {
+    border: 0;
+}
+#header .SignIn .setting svg {
+    vertical-align: -5px;
+    padding-right: 5px;
+}
+
+
+
+

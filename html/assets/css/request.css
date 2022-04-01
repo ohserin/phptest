@@ -1,0 +1,431 @@
+
+.section__title {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 150px;
+    font-weight: 400;
+    font-family: 'GmarketSans';
+    color: rgb(38, 38, 51);
+}
+.section__desc {
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 80px;
+    font-family: 'GmarketSans';
+}
+/* table */
+
+.board__table .inquiry {
+    width: 100%;
+    background: #e8eaf6;
+}
+.board__table .inquiry th {
+    background-color: #3949ab;
+    color: #fff;
+    font-weight: 500;
+}
+.board__table .inquiry  th,
+.board__table .inquiry  td {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 20px 0;
+    font-size: 14px;
+    font-family: 'GmarketSans';
+    /* color: rgb(51, 51, 51); */
+}
+.board__table .inquiry td {
+    vertical-align: top;
+}
+.board__table .inquiry tr {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.board__table .inquiry:hover tr:hover {
+    background-color: #c5cae9;
+}
+.board__table .inquiry .left {
+    text-align: left;
+    padding-left: 20px;
+}
+.board__table .inquiry .height {
+    height: 400px;
+    line-height: 1.6;
+}
+.board__btn {
+    float: right;
+    margin-top: 20px;
+}
+.board__btn a,
+.board__btn button {
+    background-color: #1a237e;
+    padding: 9px 20px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.board__modify {
+    text-align: left;
+}
+.board__modify label {
+    display: block;
+    margin-bottom: 5px;
+}
+.board__modify input {
+    width: calc(100% - 40px);
+    background: #e8eaf6;
+    border: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.board__modify textarea {
+    width: calc(100% - 40px);
+    background: #e8eaf6;
+    border: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    resize: none;
+    height: 400px;
+    border-radius: 5px;
+}
+.center {
+    text-align: center;
+}
+
+
+.board__table table {
+    width: 100%;
+    background: #e8eaf6;
+    
+}
+.board__table table th {
+    background-color: #3949ab;
+    color: #fff;
+    font-weight: 500;
+}
+.board__table table th,
+.board__table table td {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 20px 0;
+    font-size: 14px;
+    font-family: 'GmarketSans';
+}
+.board__table table td {
+    vertical-align: top;
+}
+.board__table table tr {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.board__table table:hover tr:hover {
+    /* background-color: rgb(227, 225, 238); */
+    cursor: default;
+}
+.board__table table .left {
+    text-align: left;
+    padding-left: 20px;
+}
+.board__table table .height {
+    height: 400px;
+    line-height: 1.6;
+}
+
+/* header */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    font-family: 'Poppins';
+    font-weight: 1000;
+    /* background-color: blue; */
+}
+
+#header .container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 1200px){
+    #header .container{
+        width: 100%;
+    }
+}
+.header__wrap {
+    margin: 20px 0;
+    height: 60px;
+    display: flex;
+}
+
+#header .headerLogo {
+    flex: 0 0 20%;
+    font-size: 24px;
+    padding-top: 11px;
+    text-align: left;
+    margin-left: 20px;
+    color: #3f51b5;
+}
+
+#header .middleMenu {
+    flex: 0 0 50%;
+    padding-top: 15px;
+}
+
+#header .middleMenu ul {
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header .middleMenu li a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3f51b5;
+}
+
+#header .SignIn {
+    flex: 0 0 28%;
+    margin-top: 10px;
+}
+
+#header .SignIn a.setting {
+    height: 25px;
+}
+
+#header .SignIn a {
+    float: right;
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: 1px solid #3f51b5;
+    text-decoration: none;
+    font-weight: 1000;
+    color: #3f51b5;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+#header .SignIn .setting {
+    border: 0;
+}
+#header .SignIn .setting svg {
+    vertical-align: -5px;
+    padding-right: 5px;
+}
+
+
+
+/* 컨테이너 */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    /* background: rgba(0,0,0,0.3); */
+}
+
+.request-btn {
+    float: right;
+    padding: 10px 50px;
+    background-color: #3949ab;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    cursor: default;
+}
+
+#boardQuest {
+    font-family: 'GmarketSans';
+}
+
+.boardQuest__head h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+    color: #4286DE;
+    background: linear-gradient(to bottom, #6b51cc, #4286DE);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-weight: normal;
+}
+
+.boardQuest__body {
+    margin-top: 150px;
+}
+.boardQuest__body .desc {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.boardQuest__body article {
+    width: 300px;
+    height: 350px;
+    position: relative;
+}
+
+.boardQuest__body article:hover h4 {
+    opacity: 1;
+}
+.boardQuest__body article h4 {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    white-space: nowrap;
+    background: #ffffffad;
+    color: #303d4e;
+    opacity: 0;
+}
+
+.boardQuest__body .article1 {
+    background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/request/family.jpg);
+}
+.boardQuest__body .article1:hover {
+    background-image: url(../img/request/family.jpg);
+}
+.boardQuest__body .article2:hover {
+    background-image: url(../img/request/dog.jpg);
+}
+.boardQuest__body .article3:hover {
+    background-image: url(../img/request/event.jpg);
+}
+.boardQuest__body .article2 {
+    background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/request/dog.jpg);
+}
+.boardQuest__body .article3 {
+    background-image:linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/request/event.jpg);
+}
+
+.boardQuest__body .process {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #6b51cc;
+}
+
+.boardQuest__body .process h3 {
+    font-size: 50px;
+    display: inline-block;
+    margin-bottom: 100px;
+    background: linear-gradient(to bottom, #4286DE, #6b51cc);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 100px;
+}
+
+.boardQuest__body span {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.boardQuest__body .steps {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.boardQuest__body .step {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #ffffffcc;
+}
+.boardQuest__body .step p {
+    font-size: 20px;
+}
+.boardQuest__body .step1 img {
+    position: absolute;
+    top: 40%; left: 40%;
+    transform: scale(4);
+}
+.boardQuest__body .step1::after,
+.boardQuest__body .step2::after {
+    content: '';
+    width: 43px; height: 74px;
+    background-image: url(../img/request/Vector.svg);
+    position: absolute;
+    bottom: 125px; right: -60px;
+}
+.boardQuest__body .step4::after {
+    content: '';
+    width: 43px; height: 74px;
+    background-image: url(../img/request/Vector.svg);
+    position: absolute;
+    bottom: 125px; right: -120px;
+}
+.boardQuest__body .step2 img {
+    position: absolute;
+    top: 40%; left: 40%;
+    transform: scale(4);
+}
+.boardQuest__body .step3 img {
+    position: absolute;
+    top: 42%; left: 42%;
+    transform: scale(4);
+}
+.boardQuest__body .step4 img {
+    position: absolute;
+    top: 42%; left: 44%;
+    transform: scale(4);
+}
+.boardQuest__body .step5 img {
+    position: absolute;
+    top: 43%; left: 42%;
+    transform: scale(4);
+}
+
+.process__go {
+    background: linear-gradient(to bottom, #4286DE, #6b51cc);
+    color: #fff;
+    padding: 20px 200px;
+    border-radius: 20px;
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 100px;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+.process__go:hover {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #4286DE, #6b51cc);
+}
+
+.board__modify .toggle__layout {
+    display: inline-block;
+    width: 100%;
+}
+.board__modify .toggle__layout .selection {
+    display: flex;
+}
+.board__modify .toggle__layout .selection div {
+    display: flex;
+    width: 160px;
+}
+.board__modify .toggle__layout .selection div input[type=radio] {
+    /* display: inline-block; */
+    /* width: 60px; */
+    margin-top: 5px;
+    display: none;
+}
+.board__modify .toggle__layout .selection div input[type=radio] + label svg path {
+    fill: #e0e0e0;
+}
+.board__modify .toggle__layout .selection div input[type=radio]:checked + label svg path {
+    fill: #000000;
+}

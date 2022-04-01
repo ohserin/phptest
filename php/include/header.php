@@ -9,7 +9,13 @@
                 <li><a href="../comment/comment.php">댓글</a></li>
                 <li><a href="../board/board.php">게시판</a></li>
                 <li><a href="../blog/blog.php">블로그</a></li>
-                <li><a href="#">관리자</a></li>
+                <li><a href="#">퀴즈</a>
+                    <ul class="sub">
+                <li><a href="../quiz/quizCreate.php">문제 만들기</a></li>
+                <li><a href="../quiz/quiz.php">문제 풀기</a></li>
+                <li><a href="../quiz.quizExem.php">기출 문제</a></li>
+                    </ul>
+            </li>
             </ul>
         </nav>
         <div class="member">
@@ -24,7 +30,6 @@
                 </g>
             </svg>
                     <?=$_SESSION['youName']?>님 환영합니다.</a>
-                    <a href="../login/logout.php">로그아웃</a>
              <?php   } else { ?>
                     <a href="../login/join.php">회원가입</a>
                     <a href="../login/login.php">로그인</a>
